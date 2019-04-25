@@ -22,6 +22,9 @@ export class AboutComponent implements OnInit {
   invalid:string='demoInvalid';
 
   onChange(value){
-    alert("you have selected "+value);
+    console.log(value);
+  }
+  eventClick(event){
+    alert(event);
   }
 }
