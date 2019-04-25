@@ -12,7 +12,16 @@ export class AboutComponent implements OnInit {
   ngOnInit() {
   }
   onclick(){
-    console.log("hello");
+   alert('button clicked');
   }
+  months = ["January", "Feburary", "March", "April", "May", 
+  "June", "July", "August", "September",
+  "October", "November", "December"];
+  isAvailable:boolean=false;
+  title:string='demoAngular';
+  invalid:string='demoInvalid';
 
+  onChange(value){
+    alert("you have selected "+value);
+  }
 }
