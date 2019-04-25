@@ -11,5 +11,11 @@ export class ContactComponent implements OnInit {
 
   ngOnInit() {
   }
+  title = 'Angular 7 Project!';
+   todaydate = new Date();
+   jsonval = {name:'Rox', age:'25', address:{a1:'Mumbai', a2:'Karnataka'}};
+   months = ["Jan", "Feb", "Mar", "April", "May", "Jun",
+             "July", "Aug", "Sept", "Oct", "Nov", "Dec"];
+  ammount:number=99999;
 
 }
