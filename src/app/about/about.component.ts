@@ -20,9 +20,9 @@ export class AboutComponent implements OnInit {
   isAvailable:boolean=false;
   title:string='demoAngular';
   invalid:string='demoInvalid';
-
+  month:string;
   onChange(value){
-    console.log(value);
+    this.month=value;
   }
   eventClick(event){
     alert(event);
